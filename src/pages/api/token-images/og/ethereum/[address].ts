@@ -8,6 +8,7 @@ export default async function handler(
   res: NextApiResponse
 ) {
   const {
+    address,
     token = "tokeneqwe",
     avatar = "",
     mcap = "0",
