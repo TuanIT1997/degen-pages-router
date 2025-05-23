@@ -118,7 +118,7 @@ export default function Page({
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={`${product.symbol} $${product.price_in_usd} / Ethereum / ${product.dex_exchange}`} />
         <meta name="twitter:description" content={`${product.description}`} />
-        <meta name="twitter:image" content={`${product.token_banner}`} />
+        <meta name="twitter:image" content={`https://degen-pages-router.vercel.app/api/generate-image`} />
       </Head>
       <p>{repo.error_code}</p>
     </main>
